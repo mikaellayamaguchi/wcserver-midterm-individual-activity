@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-app.use(express.json()); // middleware to parse JSON
+app.use(express.json()); 
 
 const movies = [
   { id: 1, title: "Superman" },
